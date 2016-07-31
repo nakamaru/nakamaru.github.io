@@ -1,8 +1,49 @@
-h1 {
-  color: yellow;
-  -webkit-transition: 200ms ease-out transform;
-  transition: 200ms ease-out transform; }
-  h1:hover {
-    color: red;
-    -webkit-transform: translate(10px, 0);
-            transform: translate(10px, 0); }
+@charset "UTF-8";
+body {
+  margin: 0px;
+  background-color: #FFFFFF;
+  font-size: 18px; }
+
+/* pc */
+@media screen and (min-width: 640px) {
+  /*ここにpc用スタイルを記述*/
+  .wrapper {
+    width: 100%; }
+  .main {
+    margin-top: 0;
+    height: 800px;
+    background-color: green; }
+  .sub-right, .sub-left {
+    padding-top: 80px;
+    height: 650px; }
+  .sub-right {
+    background-color: #FFFFFFF; }
+  .sub-left {
+    background-color: #FFFFFFF; }
+  .team-name {
+    text-align: center;
+    font-size: 40px; }
+  .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 120px 40px; }
+  .member {
+    width: 15%;
+    padding: 20px 2%; }
+  .member-img img {
+    width: 100%;
+    height: 100%; }
+  .member-text {
+    text-align: center;
+    margin-top: 5px; }
+  .footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 40px 70px; } }
+
+/* smartPhone */
+@media screen and (max-width: 640px) {
+  /*ここにスマホ用スタイルを記述*/
+  .wrapper {
+    background-color: black; } }
