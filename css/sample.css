@@ -119,9 +119,3 @@ h4 {
     background-color: #e5e5e5;
     text-align: center;
     padding: 40px 70px; } }
-
-/* smartPhone */
-@media screen and (max-width: 640px) {
-  /*ここにスマホ用スタイルを記述*/
-  .wrapper {
-    background-color: black; } }

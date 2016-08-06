@@ -1,7 +1,129 @@
 /* smartPhone */
 @media screen and (max-width: 640px) {
 /*ここにスマホ用スタイルを記述*/
-  .wrapper {
+body {
+  margin: 0px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+}
 
+.wrapper {
+    width: 100%;
+  }
+
+/* main-top */
+  .main {
+    padding: 5%;
+    .main-text-large p {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0;
+    }
+    .main-text-small p {
+      font-size: 16px;
+      margin: 0 auto;
+    }
+  }
+
+
+  .store-icon {
+    display: block;
+    width: 200px;
+    height: 69px;
+    margin: 30px auto;
+  }
+
+/* sub-right-left */
+  .sub-right, .sub-left {
+    .sub-text {
+      width: 50%;
+      padding: 15% 0;
+    }
+  }
+
+
+  .sub-right {
+    padding: 5% 10%;
+
+    .sub-text {
+      float: left;
+    }
+    .sub-img img{
+      width: 50%;
+    }
+  }
+
+  .sub-left {
+    padding: 2% 10% 5%;
+
+    .sub-text {
+    float: right;
+    }
+    .sub-img img{
+      width: 50%;
+    }
+  }
+
+  .sub-text-large, .sub-text-small {
+    padding: 0 10%;
+  }
+
+  .sub-text-large p {
+      font-size: 30px;
+      margin: 0;
+    }
+
+/* feature */
+  .feature {
+    margin-bottom: 40px;
+    padding: 0 10%;
+
+    .feature-upper, .feature-bottom {
+      display: flex;
+    }
+
+    .feature-detail {
+      width: 30%;
+      padding: 0 2%;
+      text-align: center;
+      p {
+        margin-top: 0;
+        text-align: left;
+      }
+    }
+  }
+
+/* team */
+  .team-name {
+    padding-top: 20px;
+  }
+
+  .team {
+    display: flex;
+    padding: 0 10%;
+
+    .member {
+      width: 15%;
+      padding: 20px 1%;
+      text-align: center;
+    }
+
+    .member-name p, .member-text p{
+      margin: 0;
+    }
+
+    .member-name {
+      font-size: 18px;
+    }
+
+    .member-text {
+      font-size: 11px;
+    }
+  }
+
+  .footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 40px 70px;
   }
 }

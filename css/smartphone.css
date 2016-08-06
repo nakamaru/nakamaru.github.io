@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* smartPhone */
+@media screen and (max-width: 640px) {
+  /*ここにスマホ用スタイルを記述*/
+  body {
+    margin: 0px;
+    background-color: #FFFFFF;
+    font-size: 16px; }
+  .wrapper {
+    width: 100%; }
+  /* main-top */
+  .main {
+    padding: 5%; }
+    .main .main-text-large p {
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0; }
+    .main .main-text-small p {
+      font-size: 16px;
+      margin: 0 auto; }
+  .store-icon {
+    display: block;
+    width: 200px;
+    height: 69px;
+    margin: 30px auto; }
+  /* sub-right-left */
+  .sub-right .sub-text, .sub-left .sub-text {
+    width: 50%;
+    padding: 15% 0; }
+  .sub-right {
+    padding: 5% 10%; }
+    .sub-right .sub-text {
+      float: left; }
+    .sub-right .sub-img img {
+      width: 50%; }
+  .sub-left {
+    padding: 2% 10% 5%; }
+    .sub-left .sub-text {
+      float: right; }
+    .sub-left .sub-img img {
+      width: 50%; }
+  .sub-text-large, .sub-text-small {
+    padding: 0 10%; }
+  .sub-text-large p {
+    font-size: 30px;
+    margin: 0; }
+  /* feature */
+  .feature {
+    margin-bottom: 40px;
+    padding: 0 10%; }
+    .feature .feature-upper, .feature .feature-bottom {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .feature .feature-detail {
+      width: 30%;
+      padding: 0 2%;
+      text-align: center; }
+      .feature .feature-detail p {
+        margin-top: 0;
+        text-align: left; }
+  /* team */
+  .team-name {
+    padding-top: 20px; }
+  .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 10%; }
+    .team .member {
+      width: 15%;
+      padding: 20px 1%;
+      text-align: center; }
+    .team .member-name p, .team .member-text p {
+      margin: 0; }
+    .team .member-name {
+      font-size: 18px; }
+    .team .member-text {
+      font-size: 11px; }
+  .footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 40px 70px; } }
