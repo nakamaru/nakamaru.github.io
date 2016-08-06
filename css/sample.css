@@ -24,7 +24,7 @@ h4 {
   .main {
     margin-top: 0;
     height: 400px;
-    background-color: #006666;
+    background-color: #0066CC;
     padding: 16% 10%;
     background-image: url(../img/device_swipe_top.png);
     background-size: auto;
@@ -54,13 +54,13 @@ h4 {
       color: #FFFFFF; }
     .main-text .main-text-small p {
       font-size: 16px;
-      margin: 10px auto;
+      margin: 0 auto;
       color: #FFFFFF; }
-    .main-text .store-icon {
-      display: block;
-      width: 200px;
-      height: 69px;
-      margin: 20px auto; }
+  .store-icon {
+    display: block;
+    width: 200px;
+    height: 69px;
+    margin: 30px auto; }
   /* sub-right-left */
   .sub-right .sub-text, .sub-left .sub-text {
     width: 50%;
@@ -84,6 +84,7 @@ h4 {
     margin: 0; }
   /* feature */
   .feature {
+    margin-bottom: 40px;
     padding: 0 10%; }
     .feature .feature-upper, .feature .feature-bottom {
       display: -webkit-box;
@@ -97,21 +98,23 @@ h4 {
         margin-top: 0;
         text-align: left; }
   /* team */
+  .team-name {
+    padding-top: 20px; }
   .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding: 0 10%; }
-  .member {
-    width: 15%;
-    padding: 20px 1%;
-    text-align: center; }
-  .member-name p, .member-text p {
-    margin: 0; }
-  .member-name {
-    font-size: 18px; }
-  .member-text {
-    font-size: 11px; }
+    .team .member {
+      width: 15%;
+      padding: 20px 1%;
+      text-align: center; }
+    .team .member-name p, .team .member-text p {
+      margin: 0; }
+    .team .member-name {
+      font-size: 18px; }
+    .team .member-text {
+      font-size: 11px; }
   .footer {
     background-color: #e5e5e5;
     text-align: center;

@@ -28,7 +28,7 @@ h4 {
   .main {
     margin-top: 0;
     height: 400px;
-    background-color: #006666;
+    background-color: #0066CC;
     padding: 16% 10%;
     background-image: url(../img/device_swipe_top.png);
     background-size: auto;
@@ -61,15 +61,16 @@ h4 {
     }
     .main-text-small p {
       font-size: 16px;
-      margin: 10px auto;
+      margin: 0 auto;
       color: #FFFFFF;
     }
-    .store-icon {
-      display: block;
-      width: 200px;
-      height: 69px;
-      margin: 20px auto;
-    }
+  }
+
+  .store-icon {
+    display: block;
+    width: 200px;
+    height: 69px;
+    margin: 30px auto;
   }
 
 /* sub-right-left */
@@ -114,6 +115,7 @@ h4 {
 
 /* feature */
   .feature {
+    margin-bottom: 40px;
     padding: 0 10%;
 
     .feature-upper, .feature-bottom {
@@ -132,29 +134,33 @@ h4 {
   }
 
 /* team */
+  .team-name {
+    padding-top: 20px;
+  }
+
   .team {
     display: flex;
     padding: 0 10%;
-  }
-  .member {
-    width: 15%;
-    padding: 20px 1%;
-    text-align: center;
+
+    .member {
+      width: 15%;
+      padding: 20px 1%;
+      text-align: center;
+    }
+
+    .member-name p, .member-text p{
+      margin: 0;
+    }
+
+    .member-name {
+      font-size: 18px;
+    }
+
+    .member-text {
+      font-size: 11px;
+    }
   }
 
-
-
-  .member-name p, .member-text p{
-    margin: 0;
-  }
-
-  .member-name {
-    font-size: 18px;
-  }
-
-  .member-text {
-    font-size: 11px;
-  }
 
   .footer {
     background-color: #e5e5e5;
