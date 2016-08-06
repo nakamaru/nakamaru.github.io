@@ -4,6 +4,9 @@ body {
   background-color: #FFFFFF;
   font-size: 18px; }
 
+h3 {
+  font-size: 150%; }
+
 /* pc */
 @media screen and (min-width: 640px) {
   /*ここにpc用スタイルを記述*/
@@ -12,14 +15,36 @@ body {
   .main {
     margin-top: 0;
     height: 800px;
-    background-color: green; }
+    background-color: green;
+    padding: 20% 10%; }
+  .main-text-large {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600; }
+    .main-text-large p {
+      margin: 0;
+      color: #FFFFFF; }
+  .main-text-small {
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center; }
+    .main-text-small p {
+      margin: 0;
+      color: #FFFFFF; }
+  .store-icon {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 69px; }
+  .main-img {
+    margin-top: 30px; }
   .sub-right, .sub-left {
-    padding-top: 80px;
+    padding: 5% 10%;
     height: 650px; }
-  .sub-right {
-    background-color: #FFFFFFF; }
-  .sub-left {
-    background-color: #FFFFFFF; }
+    .sub-right .sub-text, .sub-left .sub-text {
+      width: 50%; }
+  .sub-left .sub-text {
+    float: right; }
   .team-name {
     text-align: center;
     font-size: 40px; }
