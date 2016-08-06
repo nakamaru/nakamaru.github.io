@@ -2,22 +2,32 @@
 body {
   margin: 0px;
   background-color: #FFFFFF;
-  font-size: 18px; }
+  font-size: 16px; }
 
 h3 {
-  font-size: 150%; }
+  margin: 0;
+  font-size: 40px;
+  text-align: center; }
+
+h4 {
+  margin: 0;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400; }
 
 /* pc */
 @media screen and (min-width: 640px) {
   /*ここにpc用スタイルを記述*/
   .wrapper {
     width: 100%; }
+  /* main-top */
   .main {
     margin-top: 0;
     height: 400px;
     background-color: #006666;
-    padding: 20% 10%;
+    padding: 16% 10%;
     background-image: url(../img/device_swipe_top.png);
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center bottom;
     position: relative; }
@@ -51,30 +61,57 @@ h3 {
       width: 200px;
       height: 69px;
       margin: 20px auto; }
-  .sub-right, .sub-left {
-    padding: 5% 10%;
-    height: 650px; }
-    .sub-right .sub-text, .sub-left .sub-text {
+  /* sub-right-left */
+  .sub-right .sub-text, .sub-left .sub-text {
+    width: 50%;
+    padding: 15% 0; }
+  .sub-right {
+    padding: 5% 10%; }
+    .sub-right .sub-text {
+      float: left; }
+    .sub-right .sub-img img {
       width: 50%; }
-  .sub-left .sub-text {
-    float: right; }
-  .team-name {
-    text-align: center;
-    font-size: 40px; }
+  .sub-left {
+    padding: 2% 10% 5%; }
+    .sub-left .sub-text {
+      float: right; }
+    .sub-left .sub-img img {
+      width: 50%; }
+  .sub-text-large, .sub-text-small {
+    padding: 0 10%; }
+  .sub-text-large p {
+    font-size: 30px;
+    margin: 0; }
+  /* feature */
+  .feature {
+    padding: 0 10%; }
+    .feature .feature-upper, .feature .feature-bottom {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .feature .feature-detail {
+      width: 30%;
+      padding: 0 2%;
+      text-align: center; }
+      .feature .feature-detail p {
+        margin-top: 0;
+        text-align: left; }
+  /* team */
   .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 120px 40px; }
+    padding: 0 10%; }
   .member {
     width: 15%;
-    padding: 20px 2%; }
-  .member-img img {
-    width: 100%;
-    height: 100%; }
+    padding: 20px 1%;
+    text-align: center; }
+  .member-name p, .member-text p {
+    margin: 0; }
+  .member-name {
+    font-size: 18px; }
   .member-text {
-    text-align: center;
-    margin-top: 5px; }
+    font-size: 11px; }
   .footer {
     background-color: #e5e5e5;
     text-align: center;

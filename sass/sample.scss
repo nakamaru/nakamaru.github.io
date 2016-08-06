@@ -1,16 +1,21 @@
 body {
   margin: 0px;
   background-color: #FFFFFF;
-  font-size: 18px;
-}
-
-h2 {
-
+  font-size: 16px;
 }
 
 h3 {
-  font-size: 150%;
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
 }
+h4 {
+  margin: 0;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+}
+
 
 /* pc */
 @media screen and (min-width: 640px) {
@@ -19,6 +24,7 @@ h3 {
     width: 100%;
   }
 
+/* main-top */
   .main {
     margin-top: 0;
     height: 400px;
@@ -66,49 +72,89 @@ h3 {
     }
   }
 
+/* sub-right-left */
   .sub-right, .sub-left {
-    padding: 5% 10%;
-    height: 650px;
     .sub-text {
+      width: 50%;
+      padding: 15% 0;
+    }
+  }
+
+
+  .sub-right {
+    padding: 5% 10%;
+
+    .sub-text {
+      float: left;
+    }
+    .sub-img img{
       width: 50%;
     }
   }
 
-  .sub-right {
-  }
+  .sub-left {
+    padding: 2% 10% 5%;
 
-  .sub-left .sub-text {
+    .sub-text {
     float: right;
+    }
+    .sub-img img{
+      width: 50%;
+    }
   }
 
+  .sub-text-large, .sub-text-small {
+    padding: 0 10%;
+  }
+
+  .sub-text-large p {
+      font-size: 30px;
+      margin: 0;
+    }
+
+/* feature */
   .feature {
+    padding: 0 10%;
 
+    .feature-upper, .feature-bottom {
+      display: flex;
+    }
+
+    .feature-detail {
+      width: 30%;
+      padding: 0 2%;
+      text-align: center;
+      p {
+        margin-top: 0;
+        text-align: left;
+      }
+    }
   }
 
-  .team-name {
-    text-align: center;
-    font-size: 40px;
-  }
-
+/* team */
   .team {
     display: flex;
-    padding: 0 120px 40px;
+    padding: 0 10%;
   }
   .member {
     width: 15%;
-    padding: 20px 2%;
+    padding: 20px 1%;
+    text-align: center;
   }
 
-  .member-img img {
-    width: 100%;
-    height: 100%;
+
+
+  .member-name p, .member-text p{
+    margin: 0;
+  }
+
+  .member-name {
+    font-size: 18px;
   }
 
   .member-text {
-    text-align: center;
-    margin-top: 5px;
+    font-size: 11px;
   }
-
 
   .footer {
     background-color: #e5e5e5;
