@@ -14,30 +14,43 @@ h3 {
     width: 100%; }
   .main {
     margin-top: 0;
-    height: 800px;
-    background-color: green;
-    padding: 20% 10%; }
-  .main-text-large {
+    height: 400px;
+    background-color: #006666;
+    padding: 20% 10%;
+    background-image: url(../img/device_swipe_top.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative; }
+  .main::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' '; }
+  .main-text {
+    position: absolute;
     text-align: center;
-    font-size: 48px;
-    font-weight: 600; }
-    .main-text-large p {
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+    .main-text .main-text-large p {
+      font-size: 48px;
+      font-weight: 600;
       margin: 0;
       color: #FFFFFF; }
-  .main-text-small {
-    margin: 20px 0;
-    font-size: 16px;
-    text-align: center; }
-    .main-text-small p {
-      margin: 0;
+    .main-text .main-text-small p {
+      font-size: 16px;
+      margin: 10px auto;
       color: #FFFFFF; }
-  .store-icon {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 69px; }
-  .main-img {
-    margin-top: 30px; }
+    .main-text .store-icon {
+      display: block;
+      width: 200px;
+      height: 69px;
+      margin: 20px auto; }
   .sub-right, .sub-left {
     padding: 5% 10%;
     height: 650px; }
