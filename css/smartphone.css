@@ -2,19 +2,22 @@
 /* smartPhone */
 @media screen and (max-width: 640px) {
   /*ここにスマホ用スタイルを記述*/
-  body {
-    margin: 0px;
-    background-color: #FFFFFF;
-    font-size: 16px; }
   .wrapper {
     width: 100%; }
   /* main-top */
   .main {
-    padding: 5%; }
+    font-size: 32px;
+    padding: 20% 5% 50%;
+    text-align: center;
+    background-image: url(../img/device_swipe_top_sp.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center bottom; }
     .main .main-text-large p {
-      font-size: 32px;
       font-weight: 600;
       margin: 0; }
+    .main .main-text-small {
+      margin-top: 20px; }
     .main .main-text-small p {
       font-size: 16px;
       margin: 0 auto; }
@@ -22,23 +25,15 @@
     display: block;
     width: 200px;
     height: 69px;
-    margin: 30px auto; }
+    margin: 10px auto 30px; }
   /* sub-right-left */
-  .sub-right .sub-text, .sub-left .sub-text {
-    width: 50%;
-    padding: 15% 0; }
-  .sub-right {
-    padding: 5% 10%; }
-    .sub-right .sub-text {
-      float: left; }
-    .sub-right .sub-img img {
-      width: 50%; }
-  .sub-left {
-    padding: 2% 10% 5%; }
-    .sub-left .sub-text {
-      float: right; }
-    .sub-left .sub-img img {
-      width: 50%; }
+  .sub-right, .sub-left {
+    padding: 15% 10% 5%; }
+    .sub-right .sub-text, .sub-left .sub-text {
+      width: 100%;
+      padding: 15% 0; }
+    .sub-right .sub-img img, .sub-left .sub-img img {
+      width: 100%; }
   .sub-text-large, .sub-text-small {
     padding: 0 10%; }
   .sub-text-large p {
