@@ -14,7 +14,8 @@
     background-repeat: no-repeat;
     background-position: center bottom; }
     .main .main-text-large p {
-      margin: 0; }
+      margin: 0;
+      font-weight: 500; }
     .main .main-text-small {
       margin-top: 20px; }
     .main .main-text-small p {
