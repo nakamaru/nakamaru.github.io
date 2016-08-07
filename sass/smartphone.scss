@@ -9,7 +9,7 @@
 /* main-top */
   .main {
     font-size: 32px;
-    padding: 20% 5% 50%;
+    padding: 15% 5% 50%;
     text-align: center;
     background-image: url(../img/device_swipe_top_sp.png);
     background-size: 90%;
@@ -17,7 +17,6 @@
     background-position: center bottom;
 
     .main-text-large p {
-      font-weight: 600;
       margin: 0;
     }
 
@@ -35,7 +34,7 @@
     display: block;
     width: 200px;
     height: 69px;
-    margin: 10% auto;
+    margin: 15% auto;
   }
 
 /* sub-right-left */
@@ -43,9 +42,14 @@
     padding: 15% 10% 5%;
     text-align: center;
 
-    .sub-text {
+    .sub-right .sub-text {
       width: 100%;
       padding: 15% 0;
+    }
+
+    .sub-left .sub-text {
+      width: 100%;
+      padding: 10% 0;
     }
 
     .sub-img img{
@@ -64,7 +68,7 @@
 
 /* feature */
   .feature {
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 0 10%;
 
     .feature-detail {

@@ -7,7 +7,7 @@
   /* main-top */
   .main {
     font-size: 32px;
-    padding: 20% 5% 50%;
+    padding: 15% 5% 50%;
     text-align: center;
     background-image: url(../img/device_swipe_top_sp.png);
     background-size: 90%;
@@ -25,14 +25,17 @@
     display: block;
     width: 200px;
     height: 69px;
-    margin: 10% auto; }
+    margin: 15% auto; }
   /* sub-right-left */
   .sub-right, .sub-left {
     padding: 15% 10% 5%;
     text-align: center; }
-    .sub-right .sub-text, .sub-left .sub-text {
+    .sub-right .sub-right .sub-text, .sub-left .sub-right .sub-text {
       width: 100%;
       padding: 15% 0; }
+    .sub-right .sub-left .sub-text, .sub-left .sub-left .sub-text {
+      width: 100%;
+      padding: 10% 0; }
     .sub-right .sub-img img, .sub-left .sub-img img {
       width: 100%; }
   .sub-text-large, .sub-text-small {
@@ -42,7 +45,7 @@
     margin: 0; }
   /* feature */
   .feature {
-    margin: 40px 0;
+    margin: 20px 0;
     padding: 0 10%; }
     .feature .feature-detail {
       width: 100%;
