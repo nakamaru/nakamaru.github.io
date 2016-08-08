@@ -25,29 +25,23 @@ h4 {
   /* main-top */
   .main {
     margin-top: 0;
-    height: 400px;
-    padding: 10%;
+    padding: 10% 5%;
     background-image: url(../img/device_swipe_top.png);
-    background-size: 50%;
+    background-size: 600px;
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-color: #EEFFFF;
-    position: relative; }
+    background-color: #FFFFFF; }
   .main-text {
-    position: absolute;
     text-align: center;
-    top: 30%;
-    left: 40%;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    padding: 0 15%; }
+    margin-left: 35%;
+    padding: 0 10%; }
     .main-text .main-text-large p {
       font-size: 48px;
       margin: 0; }
     .main-text .main-text-small p {
       font-size: 15px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding: 0 15%; }
   .store-icon {
     display: block;
     width: 200px;
