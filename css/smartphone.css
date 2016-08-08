@@ -12,7 +12,9 @@
     background-image: url(../img/device_swipe_top_sp.png);
     background-size: 90%;
     background-repeat: no-repeat;
-    background-position: center bottom; }
+    background-position: center bottom;
+    background-color: #29B1CC;
+    color: #FFFFFF; }
     .main .main-text-large p {
       margin: 0;
       font-weight: 500; }
