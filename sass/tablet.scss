@@ -1,28 +1,8 @@
 @charset "utf-8";
 
-body {
-  margin: 0px;
-  background-color: #FFFFFF;
-  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  font-size: 16px;
-}
+/* tablet */
+@media (min-width: 640px) and (max-width: 1050px) {
 
-h3 {
-  margin: 0;
-  font-size: 40px;
-  text-align: center;
-  font-weight: 500;
-}
-h4 {
-  margin: 0;
-  font-size: 28px;
-  text-align: center;
-  font-weight: 400;
-}
-
-/* pc */
-@media screen and (min-width: 1050px) {
-/*ここにpc用スタイルを記述*/
   .wrapper {
     width: 100%;
   }
@@ -44,7 +24,7 @@ h4 {
     margin-left: 35%;
     padding: 0 10%;
     .main-text-large p {
-      font-size: 48px;
+      font-size: 32px;
       margin: 0;
     }
     .main-text-small p {
