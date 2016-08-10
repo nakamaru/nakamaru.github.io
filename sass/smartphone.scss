@@ -91,14 +91,18 @@
   }
 
   .team {
-    height: 750px;
     padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
 
     .member {
       width: 40%;
-      float: left;
-      padding: 5% 5%;
       text-align: center;
+      display: inline-block;
     }
 
     .member-img img{

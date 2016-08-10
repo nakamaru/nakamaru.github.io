@@ -4,30 +4,28 @@
     width: 100%; }
   /* main-top */
   .main {
-    margin-top: 0;
-    padding: 10% 5%;
-    background-image: url(../img/device_swipe_top.png);
-    background-size: 600px;
+    font-size: 48px;
+    padding: 10% 5% 40%;
+    text-align: center;
+    background-image: url(../img/device_swipe_top_sp.png);
+    background-size: 70%;
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: center bottom;
     background-color: #29B1CC;
     color: #FFFFFF; }
-  .main-text {
-    text-align: center;
-    margin-left: 35%;
-    padding: 0 10%; }
-    .main-text .main-text-large p {
-      font-size: 32px;
-      margin: 0; }
-    .main-text .main-text-small p {
-      font-size: 15px;
-      margin: 0 auto;
-      padding: 0 15%; }
+    .main .main-text-large p {
+      margin: 0;
+      font-weight: 500; }
+    .main .main-text-small {
+      margin-top: 20px; }
+    .main .main-text-small p {
+      font-size: 16px;
+      margin: 0 auto; }
   .store-icon {
     display: block;
     width: 200px;
     height: 69px;
-    margin: 30px auto; }
+    margin: 5% auto; }
   /* sub-right-left */
   .sub-right .sub-text, .sub-left .sub-text {
     width: 50%;
@@ -71,11 +69,16 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 10%; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 10%;
+    display: inline-block;
+    text-align: center; }
     .team .member {
-      width: 15%;
+      width: 150px;
       padding: 20px 1%;
-      text-align: center; }
+      text-align: center;
+      display: inline-block; }
     .team .member-name p, .team .member-text p {
       margin: 0; }
     .team .member-name {
