@@ -40,9 +40,11 @@ h4 {
       font-size: 48px;
       margin: 0; }
     .main-text .main-text-small p {
-      font-size: 15px;
+      font-size: 16px;
       margin: 0 auto;
       padding: 0 15%; }
+  .main-text-wrapper {
+    width: 500px; }
   .store-icon {
     display: block;
     width: 200px;
