@@ -27,7 +27,9 @@
     display: block;
     width: 200px;
     height: 69px;
-    margin: 15% auto; }
+    margin: 10% auto 5%; }
+  .sns-wrapper {
+    margin-bottom: 20px; }
   /* sub-right-left */
   .sub-right, .sub-left {
     padding: 15% 10% 5%;
