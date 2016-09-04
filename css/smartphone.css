@@ -45,8 +45,11 @@
   .sub-text-large, .sub-text-small {
     padding: 0 10%; }
   .sub-text-large p {
-    font-size: 30px;
+    font-size: 30px; }
+  .sub-text-large p:first-child {
     margin: 0; }
+  .sub-text-large p:last-child {
+    margin: 0 8px 0 20px; }
   /* feature */
   .feature {
     margin: 20px 0;
