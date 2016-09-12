@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nakamaru/nakamaru.github.io#readme",
   "devDependencies": {
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
   }

@@ -5,6 +5,7 @@ body {
   background-color: #FFFFFF;
   font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-size: 16px;
+  width: 100%;
 }
 
 h3 {
@@ -21,41 +22,46 @@ h4 {
 }
 
 /* pc */
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1080px) {
 /*ここにpc用スタイルを記述*/
   .wrapper {
-    width: 100%;
   }
 
 /* main-top */
   .main {
     margin-top: 0;
-    padding: 10% 5%;
-    background-image: url(../img/device_swipe_top.png);
-    background-size: 600px;
+    padding: 60px 40px;
+    background-image: url(../img/bg_topimg.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
-    background-color: #29B1CC;
     color: #FFFFFF;
   }
 
   .main-text {
+    max-width: 1000px;
+    height: 600px;
+    margin: auto;
     text-align: center;
-    margin-left: 35%;
-    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
     .main-text-large p {
-      font-size: 48px;
+      font-size: 40px;
+      font-weight: bold;
       margin: 0;
     }
     .main-text-small p {
-      font-size: 16px;
+      font-size: 18px;
       margin: 0 auto;
       padding: 0 15%;
     }
   }
 
+  .main-text-wrapper-img {
+    width: 380px;
+    margin-right: 20px;
+  }
+
   .main-text-wrapper {
-    width: 500px;
+    width: 600px;
   }
 
   .store-icon {
@@ -106,21 +112,25 @@ h4 {
     }
 
 /* feature */
-  .feature {
-    margin-bottom: 40px;
-    padding: 0 10%;
+  .feature-wrap {
+    background-color: #29B1CC;
+    color: #FFFFFF;
+    .feature {
+      margin-bottom: 40px;
+      padding: 0 10%;
 
-    .feature-upper, .feature-bottom {
-      display: flex;
-    }
+      .feature-upper, .feature-bottom {
+        display: flex;
+      }
 
-    .feature-detail {
-      width: 30%;
-      padding: 0 2%;
-      text-align: center;
-      p {
-        margin-top: 0;
-        text-align: left;
+      .feature-detail {
+        width: 30%;
+        padding: 0 2%;
+        text-align: center;
+        p {
+          margin-top: 0;
+          text-align: left;
+        }
       }
     }
   }

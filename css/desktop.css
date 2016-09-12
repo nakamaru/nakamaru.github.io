@@ -3,7 +3,8 @@ body {
   margin: 0px;
   background-color: #FFFFFF;
   font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  width: 100%; }
 
 h3 {
   margin: 0;
@@ -18,33 +19,38 @@ h4 {
   font-weight: 400; }
 
 /* pc */
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1080px) {
   /*ここにpc用スタイルを記述*/
-  .wrapper {
-    width: 100%; }
   /* main-top */
   .main {
     margin-top: 0;
-    padding: 10% 5%;
-    background-image: url(../img/device_swipe_top.png);
-    background-size: 600px;
+    padding: 60px 40px;
+    background-image: url(../img/bg_topimg.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
-    background-color: #29B1CC;
     color: #FFFFFF; }
   .main-text {
+    max-width: 1000px;
+    margin: auto;
     text-align: center;
-    margin-left: 35%;
-    padding: 0 10%; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
     .main-text .main-text-large p {
-      font-size: 48px;
+      font-size: 40px;
+      font-weight: bold;
       margin: 0; }
     .main-text .main-text-small p {
-      font-size: 16px;
+      font-size: 18px;
       margin: 0 auto;
       padding: 0 15%; }
+  .main-text-wrapper-img {
+    width: 380px; }
   .main-text-wrapper {
-    width: 500px; }
+    width: 600px; }
   .store-icon {
     display: block;
     width: 200px;
@@ -72,20 +78,23 @@ h4 {
     font-size: 30px;
     margin: 0; }
   /* feature */
-  .feature {
-    margin-bottom: 40px;
-    padding: 0 10%; }
-    .feature .feature-upper, .feature .feature-bottom {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-    .feature .feature-detail {
-      width: 30%;
-      padding: 0 2%;
-      text-align: center; }
-      .feature .feature-detail p {
-        margin-top: 0;
-        text-align: left; }
+  .feature-wrap {
+    background-color: #29B1CC;
+    color: #FFFFFF; }
+    .feature-wrap .feature {
+      margin-bottom: 40px;
+      padding: 0 10%; }
+      .feature-wrap .feature .feature-upper, .feature-wrap .feature .feature-bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+      .feature-wrap .feature .feature-detail {
+        width: 30%;
+        padding: 0 2%;
+        text-align: center; }
+        .feature-wrap .feature .feature-detail p {
+          margin-top: 0;
+          text-align: left; }
   /* team */
   .team-name {
     padding-top: 20px; }
