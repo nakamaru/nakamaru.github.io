@@ -30,6 +30,7 @@ h4 {
     color: #FFFFFF; }
   .main-text {
     max-width: 1000px;
+    height: 600px;
     margin: auto;
     text-align: center;
     display: -webkit-box;
@@ -45,17 +46,16 @@ h4 {
       margin: 0; }
     .main-text .main-text-small p {
       font-size: 18px;
-      margin: 0 auto;
-      padding: 0 15%; }
+      margin: 40px auto 0; }
   .main-text-wrapper-img {
-    width: 380px; }
+    width: 380px;
+    margin-right: 20px;
+    padding-top: 30px; }
   .main-text-wrapper {
-    width: 600px; }
-  .store-icon {
-    display: block;
-    width: 200px;
-    height: 69px;
-    margin: 30px auto; }
+    width: 600px;
+    padding-top: 70px; }
+  .main-app-button {
+    margin: 60px 0 30px; }
   /* sub-right-left */
   .sub-right .sub-text, .sub-left .sub-text {
     width: 50%;
