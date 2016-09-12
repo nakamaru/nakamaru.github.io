@@ -30,7 +30,7 @@ h4 {
 /* main-top */
   .main {
     margin-top: 0;
-    padding: 60px 40px;
+    padding: 60px 40px 0;
     background-image: url(../img/bg_topimg.png);
     background-repeat: no-repeat;
     color: #FFFFFF;
@@ -78,7 +78,7 @@ h4 {
   }
 
   .sub-right {
-    padding: 5% 10%;
+    padding: 60px 40px;
 
     .sub-text {
       float: left;
@@ -112,8 +112,9 @@ h4 {
   .feature-wrap {
     background-color: #29B1CC;
     color: #FFFFFF;
+    padding: 60px 40px;
     .feature {
-      margin-bottom: 40px;
+      margin: 40px 0 0;
       padding: 0 10%;
 
       .feature-upper, .feature-bottom {
@@ -121,8 +122,9 @@ h4 {
       }
 
       .feature-detail {
-        width: 30%;
-        padding: 0 2%;
+        width: 300px;
+        height: 261px;
+        padding: 0 1%;
         text-align: center;
         p {
           margin-top: 0;
@@ -134,7 +136,8 @@ h4 {
 
 /* team */
   .team-name {
-    padding-top: 20px;
+    padding: 60px 0 40px;
+    color: #29B1CC;
   }
 
   .team {
@@ -142,21 +145,24 @@ h4 {
     padding: 0 10%;
 
     .member {
-      width: 15%;
-      padding: 20px 1%;
+      width: 150px;
+      height: 220px;
+      padding: 20px;
       text-align: center;
     }
 
-    .member-name p, .member-text p{
+    .member-name p, .member-text p {
       margin: 0;
     }
 
     .member-name {
       font-size: 18px;
+      color: #456E76;
     }
 
     .member-text {
       font-size: 11px;
+      color: #29B1CC;
     }
   }
 

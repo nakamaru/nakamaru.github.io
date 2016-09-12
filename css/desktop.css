@@ -24,7 +24,7 @@ h4 {
   /* main-top */
   .main {
     margin-top: 0;
-    padding: 60px 40px;
+    padding: 60px 40px 0;
     background-image: url(../img/bg_topimg.png);
     background-repeat: no-repeat;
     color: #FFFFFF; }
@@ -61,7 +61,7 @@ h4 {
     width: 50%;
     padding: 15% 0; }
   .sub-right {
-    padding: 5% 10%; }
+    padding: 60px 40px; }
     .sub-right .sub-text {
       float: left; }
     .sub-right .sub-img img {
@@ -80,32 +80,36 @@ h4 {
   /* feature */
   .feature-wrap {
     background-color: #29B1CC;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    padding: 60px 40px; }
     .feature-wrap .feature {
-      margin-bottom: 40px;
+      margin: 40px 0 0;
       padding: 0 10%; }
       .feature-wrap .feature .feature-upper, .feature-wrap .feature .feature-bottom {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
       .feature-wrap .feature .feature-detail {
-        width: 30%;
-        padding: 0 2%;
+        width: 300px;
+        height: 261px;
+        padding: 0 1%;
         text-align: center; }
         .feature-wrap .feature .feature-detail p {
           margin-top: 0;
           text-align: left; }
   /* team */
   .team-name {
-    padding-top: 20px; }
+    padding: 60px 0 40px;
+    font: #29B1CC; }
   .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding: 0 10%; }
     .team .member {
-      width: 15%;
-      padding: 20px 1%;
+      width: 150px;
+      height: 220px;
+      padding: 20px;
       text-align: center; }
     .team .member-name p, .team .member-text p {
       margin: 0; }
