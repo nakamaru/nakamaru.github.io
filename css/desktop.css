@@ -26,7 +26,7 @@ h4 {
     margin-top: 0;
     padding: 60px 40px 0;
     background-image: url(../img/bg_topimg.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     color: #FFFFFF; }
   .main-text {
     max-width: 1000px;
@@ -58,24 +58,29 @@ h4 {
     margin: 60px 0 30px; }
   /* sub-right-left */
   .sub-right {
-    padding: 80px 80px 80px 40px; }
+    padding: 80px 10% 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
     .sub-right .sub-text {
       padding-top: 40px;
-      float: left;
       width: 460px;
       height: 380px; }
     .sub-right .sub-img img {
       width: 500px;
       height: 365px; }
   .sub-left {
-    padding: 80px 40px 80px 80px; }
-    .sub-left .sub-text {
-      float: right;
-      width: 460px;
-      height: 380px; }
+    padding: 80px 5% 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
     .sub-left .sub-img img {
       width: 480px;
       height: 380px; }
+    .sub-left .sub-text {
+      width: 460px;
+      height: 380px;
+      padding-left: 40px; }
   .sub-text-large {
     margin-bottom: 50px; }
     .sub-text-large p {
@@ -85,7 +90,7 @@ h4 {
   .feature-wrap {
     background-color: #29B1CC;
     color: #FFFFFF;
-    padding: 60px 40px; }
+    padding: 60px 5%; }
     .feature-wrap .feature {
       margin: 40px 0 0;
       padding: 0 10%; }
@@ -113,7 +118,7 @@ h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 40px 60px; }
+    padding: 0 5% 60px; }
     .team .member {
       width: 150px;
       height: 220px;

@@ -32,7 +32,7 @@ h4 {
     margin-top: 0;
     padding: 60px 40px 0;
     background-image: url(../img/bg_topimg.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     color: #FFFFFF;
   }
 
@@ -71,10 +71,10 @@ h4 {
 
 /* sub-right-left */
   .sub-right {
-    padding: 80px 80px 80px 40px;
+    padding: 80px 10% 5%;
+    display: flex;
     .sub-text {
       padding-top: 40px;
-      float: left;
       width: 460px;
       height: 380px;
     }
@@ -85,15 +85,16 @@ h4 {
   }
 
   .sub-left {
-    padding: 80px 40px 80px 80px;
-    .sub-text {
-    float: right;
-    width: 460px;
-    height: 380px;
-    }
-    .sub-img img{
+    padding: 80px 5% 10%;
+    display: flex;
+    .sub-img img {
       width: 480px;
       height: 380px;
+    }
+    .sub-text {
+    width: 460px;
+    height: 380px;
+    padding-left: 40px;
     }
   }
 
@@ -111,7 +112,7 @@ h4 {
   .feature-wrap {
     background-color: #29B1CC;
     color: #FFFFFF;
-    padding: 60px 40px;
+    padding: 60px 5%;
     .feature {
       margin: 40px 0 0;
       padding: 0 10%;
@@ -147,7 +148,7 @@ h4 {
 
   .team {
     display: flex;
-    padding: 0 40px 60px;
+    padding: 0 5% 60px;
 
     .member {
       width: 150px;
