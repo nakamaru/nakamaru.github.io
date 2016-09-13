@@ -100,7 +100,7 @@ h4 {
   /* team */
   .team-name {
     padding: 60px 0 40px;
-    font: #29B1CC; }
+    color: #29B1CC; }
   .team {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -109,14 +109,16 @@ h4 {
     .team .member {
       width: 150px;
       height: 220px;
-      padding: 20px;
-      text-align: center; }
+      text-align: center;
+      margin: 0 10px; }
     .team .member-name p, .team .member-text p {
       margin: 0; }
     .team .member-name {
-      font-size: 18px; }
+      font-size: 15px;
+      color: #456E76; }
     .team .member-text {
-      font-size: 11px; }
+      font-size: 13px;
+      color: #29B1CC; }
   .footer {
     background-color: #e5e5e5;
     text-align: center;

@@ -147,8 +147,8 @@ h4 {
     .member {
       width: 150px;
       height: 220px;
-      padding: 20px;
       text-align: center;
+      margin: 0 10px;
     }
 
     .member-name p, .member-text p {
@@ -156,12 +156,12 @@ h4 {
     }
 
     .member-name {
-      font-size: 18px;
+      font-size: 15px;
       color: #456E76;
     }
 
     .member-text {
-      font-size: 11px;
+      font-size: 13px;
       color: #29B1CC;
     }
   }
