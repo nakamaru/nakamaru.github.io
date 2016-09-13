@@ -2,8 +2,8 @@
 body {
   margin: 0px;
   background-color: #FFFFFF;
-  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  font-size: 16px;
+  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  font-size: 18px;
   width: 100%; }
 
 h3 {
@@ -57,26 +57,30 @@ h4 {
   .main-app-button {
     margin: 60px 0 30px; }
   /* sub-right-left */
-  .sub-right .sub-text, .sub-left .sub-text {
-    width: 50%;
-    padding: 15% 0; }
   .sub-right {
-    padding: 60px 40px; }
+    padding: 80px 80px 80px 40px; }
     .sub-right .sub-text {
-      float: left; }
+      padding-top: 40px;
+      float: left;
+      width: 460px;
+      height: 380px; }
     .sub-right .sub-img img {
-      width: 50%; }
+      width: 500px;
+      height: 365px; }
   .sub-left {
-    padding: 2% 10% 5%; }
+    padding: 80px 40px 80px 80px; }
     .sub-left .sub-text {
-      float: right; }
+      float: right;
+      width: 460px;
+      height: 380px; }
     .sub-left .sub-img img {
-      width: 50%; }
-  .sub-text-large, .sub-text-small {
-    padding: 0 10%; }
-  .sub-text-large p {
-    font-size: 30px;
-    margin: 0; }
+      width: 480px;
+      height: 380px; }
+  .sub-text-large {
+    margin-bottom: 50px; }
+    .sub-text-large p {
+      font-size: 38px;
+      color: #29B1CC; }
   /* feature */
   .feature-wrap {
     background-color: #29B1CC;
@@ -89,14 +93,18 @@ h4 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
+      .feature-wrap .feature .feature-upper {
+        margin-bottom: 40px; }
       .feature-wrap .feature .feature-detail {
         width: 300px;
         height: 261px;
-        padding: 0 1%;
         text-align: center; }
         .feature-wrap .feature .feature-detail p {
           margin-top: 0;
-          text-align: left; }
+          text-align: left;
+          font-size: 16px; }
+      .feature-wrap .feature .feature-detail + .feature-detail {
+        margin-left: 50px; }
   /* team */
   .team-name {
     padding: 60px 0 40px;
@@ -105,21 +113,48 @@ h4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 10%; }
+    padding: 0 40px 60px; }
     .team .member {
       width: 150px;
       height: 220px;
       text-align: center;
-      margin: 0 10px; }
+      margin: 0 12px; }
     .team .member-name p, .team .member-text p {
-      margin: 0; }
-    .team .member-name {
-      font-size: 15px;
-      color: #456E76; }
+      margin: 0;
+      font-family: Arial;
+      font-weight: bold; }
     .team .member-text {
       font-size: 13px;
-      color: #29B1CC; }
+      color: #29B1CC;
+      margin: 10px 0; }
+    .team .member-name {
+      font-size: 15px;
+      color: #456E76;
+      margin-bottom: 10px; }
+    .team .social-icon {
+      text-align: center; }
+      .team .social-icon img {
+        margin: 0 3px; }
   .footer {
-    background-color: #e5e5e5;
     text-align: center;
-    padding: 40px 70px; } }
+    padding: 60px 40px; }
+    .footer .contact-large {
+      font-size: 36px;
+      color: #29B1CC; }
+    .footer .contact-small {
+      font-size: 16px;
+      color: #666666;
+      margin-bottom: 40px; }
+    .footer .contact-button {
+      background-color: #29B1CC;
+      font-size: 20px;
+      color: #FFFFFF;
+      padding: 24px 60px;
+      border-radius: 10px;
+      text-decoration: none; }
+    .footer .contact-button-flame {
+      margin: 50px 0 120px; }
+    .footer .copyright {
+      font-family: Arial;
+      font-size: 14px;
+      color: #999999; } }
