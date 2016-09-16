@@ -48,9 +48,11 @@ h4 {
       font-size: 18px;
       margin: 40px auto 0; }
   .main-text-wrapper-img {
-    width: 380px;
     margin-right: 20px;
     padding-top: 30px; }
+    .main-text-wrapper-img img {
+      width: 360px;
+      height: 570px; }
   .main-text-wrapper {
     width: 600px;
     padding-top: 70px; }
@@ -99,7 +101,7 @@ h4 {
     padding: 60px 5%; }
     .feature-wrap .feature {
       margin: 40px 0 0;
-      padding: 0 10%; }
+      padding: 0 5%; }
       .feature-wrap .feature .feature-upper, .feature-wrap .feature .feature-bottom {
         display: -webkit-box;
         display: -ms-flexbox;

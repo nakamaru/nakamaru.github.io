@@ -1,93 +1,154 @@
 /* tablet */
-@media (min-width: 640px) and (max-width: 1050px) {
-  .wrapper {
-    width: 100%; }
-  /* main-top */
+@media (min-width: 640px) and (max-width: 1080px) {
   .main {
-    font-size: 48px;
-    padding: 10% 5% 40%;
-    text-align: center;
-    background-image: url(../img/device_swipe_top_sp.png);
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-color: #29B1CC;
+    margin-top: 0;
+    padding: 60px 5% 0;
+    background-image: url(../img/bg_topimg.png);
+    background-repeat: repeat-x;
     color: #FFFFFF; }
-    .main .main-text-large p {
-      margin: 0;
-      font-weight: 500; }
-    .main .main-text-small {
-      margin-top: 20px; }
-    .main .main-text-small p {
-      font-size: 16px;
-      margin: 0 auto; }
-  .store-icon {
-    display: block;
-    width: 200px;
-    height: 69px;
-    margin: 5% auto 0; }
-  .sns-wrapper {
-    margin-bottom: 20px; }
+  .main-text {
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .main-text .main-text-large p {
+      font-size: 40px;
+      font-weight: bold;
+      margin: 0; }
+    .main-text .main-text-small p {
+      font-size: 18px;
+      margin: 40px auto 0; }
+  .main-text-wrapper-img {
+    width: 380px;
+    margin-right: 20px;
+    padding-top: 30px; }
+  .main-text-wrapper {
+    width: 600px;
+    padding-top: 70px; }
+  .main-app-button {
+    margin: 60px 0 30px; }
   /* sub-right-left */
-  .sub-right .sub-text, .sub-left .sub-text {
-    width: 50%;
-    padding: 15% 0; }
   .sub-right {
-    padding: 5% 10%; }
+    padding: 80px 10% 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     .sub-right .sub-text {
-      float: left; }
+      padding-top: 40px;
+      width: 460px;
+      height: 380px; }
     .sub-right .sub-img img {
-      width: 50%; }
+      width: 500px;
+      height: 365px; }
   .sub-left {
-    padding: 2% 10% 5%; }
-    .sub-left .sub-text {
-      float: right; }
+    padding: 80px 5% 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     .sub-left .sub-img img {
-      width: 50%; }
-  .sub-text-large, .sub-text-small {
-    padding: 0 10%; }
-  .sub-text-large p {
-    font-size: 30px;
-    margin: 0; }
+      width: 480px;
+      height: 380px; }
+    .sub-left .sub-text {
+      width: 460px;
+      height: 380px;
+      padding-left: 40px; }
+  .sub-text-large {
+    margin-bottom: 50px; }
+    .sub-text-large p {
+      font-size: 38px;
+      color: #29B1CC; }
   /* feature */
-  .feature {
-    margin-bottom: 40px;
-    padding: 0 10%; }
-    .feature .feature-upper, .feature .feature-bottom {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-    .feature .feature-detail {
-      width: 30%;
-      padding: 0 2%;
-      text-align: center; }
-      .feature .feature-detail p {
-        margin-top: 0;
-        text-align: left; }
+  .feature-wrap {
+    background-color: #29B1CC;
+    color: #FFFFFF;
+    padding: 60px 5%; }
+    .feature-wrap .feature {
+      margin: 40px 0 0;
+      padding: 0 5%; }
+      .feature-wrap .feature .feature-upper, .feature-wrap .feature .feature-bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+      .feature-wrap .feature .feature-upper {
+        margin-bottom: 40px; }
+      .feature-wrap .feature .feature-detail {
+        width: 300px;
+        height: 261px;
+        text-align: center; }
+        .feature-wrap .feature .feature-detail p {
+          margin-top: 0;
+          text-align: left;
+          font-size: 16px; }
+      .feature-wrap .feature .feature-detail + .feature-detail {
+        margin-left: 50px; }
   /* team */
   .team-name {
-    padding-top: 20px; }
+    padding: 60px 0 40px;
+    color: #29B1CC; }
   .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding: 0 10%;
-    display: inline-block;
-    text-align: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 5% 60px; }
     .team .member {
       width: 150px;
-      padding: 20px 1%;
+      height: 220px;
       text-align: center;
-      display: inline-block; }
+      margin: 0 12px; }
     .team .member-name p, .team .member-text p {
-      margin: 0; }
-    .team .member-name {
-      font-size: 18px; }
+      margin: 0;
+      font-family: Arial;
+      font-weight: bold; }
     .team .member-text {
-      font-size: 11px; }
+      font-size: 13px;
+      color: #29B1CC;
+      margin: 10px 0; }
+    .team .member-name {
+      font-size: 15px;
+      color: #456E76;
+      margin-bottom: 10px; }
+    .team .social-icon {
+      text-align: center; }
+      .team .social-icon img {
+        margin: 0 3px; }
   .footer {
-    background-color: #e5e5e5;
     text-align: center;
-    padding: 40px 70px; } }
+    padding: 60px 40px; }
+    .footer .contact-large {
+      font-size: 36px;
+      color: #29B1CC; }
+    .footer .contact-small {
+      font-size: 16px;
+      color: #666666;
+      margin-bottom: 40px; }
+    .footer .contact-button {
+      background-color: #29B1CC;
+      font-size: 20px;
+      color: #FFFFFF;
+      padding: 24px 60px;
+      border-radius: 10px;
+      text-decoration: none; }
+    .footer .contact-button-flame {
+      margin: 50px 0 120px; }
+    .footer .copyright {
+      font-family: Arial;
+      font-size: 14px;
+      color: #999999; } }
