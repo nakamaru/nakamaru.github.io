@@ -73,6 +73,7 @@ h4 {
   .sub-right {
     padding: 80px 10% 5%;
     display: flex;
+    justify-content: center;
     .sub-text {
       padding-top: 40px;
       width: 460px;
@@ -87,6 +88,7 @@ h4 {
   .sub-left {
     padding: 80px 5% 10%;
     display: flex;
+    justify-content: center;
     .sub-img img {
       width: 480px;
       height: 380px;
@@ -119,6 +121,7 @@ h4 {
 
       .feature-upper, .feature-bottom {
         display: flex;
+        justify-content: center;
       }
       .feature-upper {
         margin-bottom: 40px;
@@ -148,6 +151,7 @@ h4 {
 
   .team {
     display: flex;
+    justify-content: center;
     padding: 0 5% 60px;
 
     .member {
