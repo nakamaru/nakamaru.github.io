@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* tablet */
-@media (min-width: 640px) and (max-width: 1080px) {
+@media (min-width: 800px) and (max-width: 1080px) {
 
   .wrapper {
   }
@@ -15,75 +15,89 @@
   }
 
   .main-text {
-    height: 600px;
     margin: auto;
     text-align: center;
     display: flex;
     flex-direction: row;
+    .main-text-large img {width: 80%;}
     .main-text-large p {
-      font-size: 40px;
+      font-size: 36px;
       font-weight: bold;
       margin: 0;
+      padding: 0 40px;
     }
     .main-text-small p {
       font-size: 18px;
-      margin: 40px auto 0;
+      padding: 0 40px;
     }
   }
 
   .main-text-wrapper-img {
-    width: 380px;
+    width: 30%;
     margin-right: 20px;
     padding-top: 30px;
+    img {
+      width: 100%;
+    }
   }
 
   .main-text-wrapper {
-    width: 600px;
+    width: 60%;
     padding-top: 70px;
+    .main-text-large {
+      width: 100%;
+    }
   }
 
   .main-app-button {
-    margin: 60px 0 30px;
+    margin: 30px 0;
   }
 
 /* sub-right-left */
   .sub-right {
-    padding: 80px 10% 5%;
+    padding: 80px 5% 5%;
     display: flex;
     justify-content: center;
     .sub-text {
-      padding-top: 40px;
-      width: 460px;
-      height: 380px;
+      width: 40%;
+      padding-right: 5%;
     }
-    .sub-img img {
-      width: 500px;
-      height: 365px;
+    .sub-img {
+      max-width: 50%;
+      min-width: 45%;
+      img {
+        width: 100%;
+        padding-top: 20px;
+      }
     }
   }
 
   .sub-left {
-    padding: 80px 5% 10%;
+    padding: 40px 5% 10%;
     display: flex;
     justify-content: center;
-    .sub-img img {
-      width: 480px;
-      height: 380px;
+    .sub-img {
+      max-width: 50%;
+      min-width: 45%;
+      img {
+        width: 100%;
+        padding-top: 20px;
+      }
     }
     .sub-text {
-    width: 460px;
-    height: 380px;
-    padding-left: 40px;
+      width: 40%;
+      padding-left: 5%;
+    }
+  }
+  .sub-text-large {
+    p {
+      font-size: 34px;
+      color: #29B1CC;
     }
   }
 
-  .sub-text-large {
-    margin-bottom: 50px;
-
-    p {
-      font-size: 38px;
-      color: #29B1CC;
-    }
+  .sub-text-small {
+    font-size: 16px;
   }
 
 
@@ -105,8 +119,7 @@
       }
 
       .feature-detail {
-        width: 300px;
-        height: 261px;
+        width: 30%;
         text-align: center;
         p {
           margin-top: 0;
@@ -129,6 +142,7 @@
   .team {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 0 5% 60px;
 
     .member {

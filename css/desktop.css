@@ -138,6 +138,9 @@ h4 {
       height: 220px;
       text-align: center;
       margin: 0 12px; }
+    .team .member-img img {
+      width: 150px;
+      height: 150px; }
     .team .member-name p, .team .member-text p {
       margin: 0;
       font-family: Arial;
