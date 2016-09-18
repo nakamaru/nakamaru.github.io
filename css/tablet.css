@@ -1,5 +1,5 @@
 /* tablet */
-@media (min-width: 800px) and (max-width: 1080px) {
+@media (min-width: 760px) and (max-width: 1080px) {
   .main {
     margin-top: 0;
     padding: 60px 5% 0;
@@ -34,7 +34,7 @@
       width: 100%; }
   .main-text-wrapper {
     width: 60%;
-    padding-top: 70px; }
+    padding: 30px; }
     .main-text-wrapper .main-text-large {
       width: 100%; }
   .main-app-button {
@@ -121,9 +121,8 @@
     padding: 0 5% 60px; }
     .team .member {
       width: 150px;
-      height: 220px;
       text-align: center;
-      margin: 0 12px; }
+      margin: 12px; }
     .team .member-name p, .team .member-text p {
       margin: 0;
       font-family: Arial;
@@ -132,6 +131,9 @@
       font-size: 13px;
       color: #29B1CC;
       margin: 10px 0; }
+    .team .member-img img {
+      width: 150px;
+      height: 150px; }
     .team .member-name {
       font-size: 15px;
       color: #456E76;

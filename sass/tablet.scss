@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* tablet */
-@media (min-width: 800px) and (max-width: 1080px) {
+@media (min-width: 760px) and (max-width: 1080px) {
 
   .wrapper {
   }
@@ -43,7 +43,7 @@
 
   .main-text-wrapper {
     width: 60%;
-    padding-top: 70px;
+    padding: 30px;
     .main-text-large {
       width: 100%;
     }
@@ -147,9 +147,8 @@
 
     .member {
       width: 150px;
-      height: 220px;
       text-align: center;
-      margin: 0 12px;
+      margin: 12px;
     }
 
     .member-name p, .member-text p {
@@ -162,6 +161,10 @@
       font-size: 13px;
       color: #29B1CC;
       margin: 10px 0;
+    }
+
+    .member-img img {
+      width: 150px; height: 150px;
     }
 
     .member-name {
