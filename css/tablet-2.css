@@ -1,13 +1,11 @@
 /* tablet */
 @media (min-width: 640px) and (max-width: 760px) {
   .main {
-    margin-top: 0;
-    padding: 60px 5% 0;
+    padding: 60px 0 0 5%;
     background-image: url(../img/bg_topimg.png);
     background-repeat: repeat-x;
     color: #FFFFFF; }
   .main-text {
-    margin: auto;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21,20 +19,19 @@
     .main-text .main-text-large p {
       font-size: 36px;
       font-weight: bold;
-      margin: 0;
-      padding: 0 40px; }
+      margin: 0; }
     .main-text .main-text-small p {
       font-size: 18px;
       padding: 0 40px; }
   .main-text-wrapper-img {
-    width: 30%;
+    width: 35%;
     margin-right: 20px;
     padding-top: 30px; }
     .main-text-wrapper-img img {
       width: 100%; }
   .main-text-wrapper {
     width: 60%;
-    padding: 30px; }
+    padding: 30px 0; }
     .main-text-wrapper .main-text-large {
       width: 100%; }
   .main-app-button {
